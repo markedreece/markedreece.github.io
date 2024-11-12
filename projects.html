@@ -4,52 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mark Reece</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="app.css"> <!-- Link to CSS -->
     <script src="app.js"></script>         <!-- Link to JS -->
 </head>
 <body>
-
-    <header>
-        <button onclick="alertButton()">Click me</button>
-        <h1>Links</h1>
-
-        <div class="button-container">
-            <div class="button-group">
-                <h2>Projects</h2>
-                <a href="projects.html" class="portfolio-button">Personal Projects</a>
-            </div>
-            <div class="button-group">
-                <h2>Game Development</h2>
-                <a href="game-development.html" class="portfolio-button">Game Development</a>
-            </div>
+    <header class="profile-header">
+        <div class="header-content">
+            <img src="profile-picture.png" alt="Profile Picture" class="profile-image" />
+            <h1>Mark Reece</h1>
+            <h2>Software Engineer/Developer and Game Programmer</h2>
+            <p>Majoring in Computer Science, Minoring in Artifical Intelligence and Cyber Security</p>
         </div>
     </header>
 
+    <a href="index.html" class="back-button">Back to Hub</a>
+
     <main>
-        <section id="home">
-            <h2>Home</h2>
-            <p>This is the home section where you can introduce your website.</p>
-        </section>
 
-        <section id="about">
-            <h2>About Us</h2>
-            <p>This section is for information about your company or website.</p>
-        </section>
+        <div class="box-container">
+            <div class="box">
+                <div class="text">Text</div>
+                <div class="small-box"></div>
+                <div class="extra-small-box>"></div>
+            </div>
+            <div class="box">
+                <div class="text">Text</div>
+                <div class="small-box"></div>
+                <div class="extra-small-box>"></div>
+            </div>
+        </div>
 
-        <section id="services">
-            <h2>Our Services</h2>
-            <p>Describe the services you offer here.</p>
-        </section>
+        <div class="video-button-wrapper">
+            <div class="video-container">
+                <div class="centered-text">
+                    CMZ Banking
+                </div>
+                <div class="button-container">
+                    <div class="button-group">
+                        <video controls class="video">
+                            <source src="bankvideo.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                        <h2 class="button-label">GitHub</h2>
+                        <a href="https://github.com/shwaygrr/cmz-banking" class="github-button">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
 
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>You can add contact information here, like an email or phone number.</p>
-        </section>
+            </div>
+        </div>
+        <div class="video-button-wrapper">
+            <div class="button-container">
+                <div class="gif-container">
+                    <div class="centered-text">
+                        CMZ Banking
+                    </div>
+                    <img src="newsapp.gif" alt="News Gif" class="gif" />
+                </div>
+                <div class="button-group">
+                    <h2 class="button-label">GitHub</h2>
+                    <a href="https://github.com/shwaygrr/cmz-banking" class="github-button">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
     </main>
-
     <footer>
-        <p>&copy; 2024 Your Website. All Rights Reserved.</p>
     </footer>
-
 </body>
 </html>
