@@ -4,52 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mark Reece</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="app.css"> <!-- Link to CSS -->
     <script src="app.js"></script>         <!-- Link to JS -->
 </head>
 <body>
-
-    <header>
-        <button onclick="alertButton()">Click me</button>
-        <h1>Links</h1>
-
-        <div class="button-container">
-            <div class="button-group">
-                <h2>Projects</h2>
-                <a href="projects.html" class="portfolio-button">Personal Projects</a>
-            </div>
-            <div class="button-group">
-                <h2>Game Development</h2>
-                <a href="game-development.html" class="portfolio-button">Game Development</a>
-            </div>
+    <header class="profile-header">
+        <div class="header-content">
+            <img src="profile-picture.png" alt="Profile Picture" class="profile-image" />
+            <h1>Mark Reece</h1>
+            <h2>Software Engineer/Developer and Game Programmer</h2>
+            <p>Majoring in Computer Science, Minoring in Artifical Intelligence and Cyber Security</p>
         </div>
     </header>
 
     <main>
-        <section id="home">
-            <h2>Home</h2>
-            <p>This is the home section where you can introduce your website.</p>
-        </section>
-
-        <section id="about">
-            <h2>About Us</h2>
-            <p>This section is for information about your company or website.</p>
-        </section>
-
-        <section id="services">
-            <h2>Our Services</h2>
-            <p>Describe the services you offer here.</p>
-        </section>
-
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>You can add contact information here, like an email or phone number.</p>
-        </section>
+        <div class="button-container">
+            <div class="button-group">
+                <h2 class="button-label">Projects</h2>
+                <a href="projects.html" class="portfolio-button">
+                    <i class="fa-regular fa-file"></i>
+                </a>
+            </div>
+            <div class="button-group">
+                <h2 class="button-label">Game Development</h2>
+                <a href="game-development.html" class="portfolio-button">
+                    <i class="fas fa-gamepad"></i>
+                </a>
+            </div>
+            <div class="button-group">
+                <h2 class="button-label">Linkedin</h2>
+                <a href="game-development.html" class="portfolio-button">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
     </main>
 
     <footer>
-        <p>&copy; 2024 Your Website. All Rights Reserved.</p>
     </footer>
-
 </body>
 </html>
